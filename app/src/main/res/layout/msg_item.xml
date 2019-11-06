@@ -1,0 +1,211 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.example.shield.MyRecyclerViewItem
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/scroll_item"
+    android:scrollbars="none"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    >
+    <!--android:layout_height="wrap_content">-->
+<!--<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--xmlns:app="http://schemas.android.com/apk/res-auto"-->
+    <!--android:orientation="vertical"-->
+
+   <!--&gt;-->
+
+
+    <LinearLayout
+
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="600dp"
+            android:layout_height="wrap_content">
+
+
+            <!--内容区域放置布局-->
+
+            <LinearLayout
+                android:id="@+id/ll_msg"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:id="@+id/ll_iv"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                <ImageView
+                    android:layout_margin="5dp"
+                    android:id="@+id/iv_msg"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:src="@android:drawable/ic_dialog_email"/>
+                </LinearLayout>
+
+                <!--<de.hdodenhof.circleimageview.CircleImageView-->
+                <!--android:id="@+id/iv_ic"-->
+
+                <!--android:layout_width="50dp"-->
+                <!--android:layout_height="50dp"-->
+                <!--android:src="@android:drawable/ic_dialog_email"-->
+
+                <!--/>-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginLeft="10dp">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal">
+                        <TextView
+                            android:id="@+id/tv_title"
+                            android:layout_width="220dp"
+                            android:layout_height="wrap_content"
+                            android:text="System Message"
+                            android:textSize="20sp"/>
+
+                        <TextView
+                            android:id="@+id/tv_time"
+
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:text="Yesterday"
+                            />
+
+
+                    </LinearLayout>
+
+                    <TextView
+                        android:id="@+id/tv_content"
+                        android:paddingTop="5dp"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="New version is coming!"/>
+                </LinearLayout>
+                <!--<View-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="0.5dp"-->
+                    <!--android:alpha="0.5"-->
+                    <!--android:background="@color/background_gray" />-->
+            </LinearLayout>
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:alpha="0.5"
+                android:background="@color/background_gray" />
+
+            <!--<TextView  android:background="@color/colorPrimaryDark"-->
+                <!--android:id="@+id/show"-->
+                <!--android:text="Delete"-->
+                <!--android:textSize="18sp"-->
+                <!--android:gravity="center_vertical"-->
+                <!--android:textColor="#ffffff"-->
+                <!--android:textStyle="bold"-->
+                <!--android:layout_width="1000dp"-->
+                <!--android:layout_height="200dp" />-->
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/click"
+            android:background="@color/colorAccent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <!--自定义侧边菜单布局-->
+
+            <TextView
+
+                android:text="Delete"
+                android:textColor="#ffffff"
+                android:textSize="20sp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <!--<android.support.v7.widget.CardView-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+
+        <!--&gt;-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="horizontal"-->
+            <!--android:padding="10dp">-->
+
+            <!--<ImageView-->
+                <!--android:layout_width="45dp"-->
+                <!--android:layout_height="45dp"-->
+                <!--android:src="@android:drawable/ic_dialog_email"/>-->
+
+
+        <!--&lt;!&ndash;<de.hdodenhof.circleimageview.CircleImageView&ndash;&gt;-->
+            <!--&lt;!&ndash;android:id="@+id/iv_ic"&ndash;&gt;-->
+
+            <!--&lt;!&ndash;android:layout_width="50dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:layout_height="50dp"&ndash;&gt;-->
+            <!--&lt;!&ndash;android:src="@android:drawable/ic_dialog_email"&ndash;&gt;-->
+
+            <!--&lt;!&ndash;/>&ndash;&gt;-->
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:orientation="vertical"-->
+            <!--android:layout_marginLeft="10dp">-->
+
+            <!--<LinearLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:orientation="horizontal">-->
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_title"-->
+                    <!--android:layout_width="220dp"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="SysMyMessagesage"-->
+                    <!--android:textSize="20sp"/>-->
+
+                <!--<TextView-->
+                    <!--android:id="@+id/tv_time"-->
+
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--android:text="Yesterday"-->
+                    <!--/>-->
+
+
+            <!--</LinearLayout>-->
+            <!--<TextView-->
+                <!--android:id="@+id/tv_content"-->
+                <!--android:paddingTop="5dp"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:text="New version is coming!"/>-->
+        <!--</LinearLayout>-->
+        <!--</LinearLayout>-->
+    <!--</android.support.v7.widget.CardView>-->
+
+
+    </com.example.shield.MyRecyclerViewItem>
+
+<!--</LinearLayout>-->

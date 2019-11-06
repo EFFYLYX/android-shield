@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/Amap_2DMap_V5.2.0_20170627/Amap_2DMap_V5.2.0_20170627.iml" filepath="$PROJECT_DIR$/Amap_2DMap_V5.2.0_20170627/Amap_2DMap_V5.2.0_20170627.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Android_Map3D_SDK_V6.5.0_20180930/Android_Map3D_SDK_V6.5.0_20180930.iml" filepath="$PROJECT_DIR$/Android_Map3D_SDK_V6.5.0_20180930/Android_Map3D_SDK_V6.5.0_20180930.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Shield.iml" filepath="$PROJECT_DIR$/Shield.iml" />
+      <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
+      <module fileurl="file://$PROJECT_DIR$/commons-collections-3.2.1-1.0.0/commons-collections-3.2.1-1.0.0.iml" filepath="$PROJECT_DIR$/commons-collections-3.2.1-1.0.0/commons-collections-3.2.1-1.0.0.iml" />
+    </modules>
+  </component>
+</project>
